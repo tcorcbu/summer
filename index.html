@@ -7,14 +7,31 @@
     <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
     <script src="example.js"></script>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      #desktop{
+          display: block;
+      }
+      #mobile{
+          display: none;
+      }
+      @media only screen and (max-width: 600px) {
+          #desktop{
+              display: none;
+          }
+          #mobile{
+              display: block;
+          }
+      }
+    </style>
   </head>
   <body>
 
     <div ng-controller="CarouselDemoCtrl">
-      <div style="height: 305px">
+      
+      <div style="height: 305px" id="desktop">
         <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
           <div uib-slide ng-repeat="slide in dateIdeas track by slide.id" index="slide.id">
-            <img ng-src="{{slide.imageUrl}}" style="margin:auto;width: 70%">
+            <img ng-src="{{slide.imageUrl}}" style="margin:auto;width: 100%">
             <div class="carousel-caption" style="background-color: rgba(211,211,211,0.4)">
               <h4>{{slide.title}}</h4>
               <p>{{slide.description}}</p>
@@ -22,6 +39,17 @@
           </div>
         </div>
       </div>
+      
+      <div class="row" ng-repeat="slide in dateIdeas" id="mobile">
+        <div class="col-md-12">
+          <img ng-src="{{slide.imageUrl}}" style="margin:auto;width: 100%">
+          <div class="carousel-caption" style="background-color: rgba(211,211,211,0.4)">
+            <h4>{{slide.title}}</h4>
+            <p>{{slide.description}}</p>
+          </div>
+        </div>
+      </div>
+      
     </div>
     
   </body>
