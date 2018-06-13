@@ -44,7 +44,7 @@ angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($sc
           title: "Walk Through Boston Public Garden",
           description: "Take a ferry over and explore one of the islands in Boston Harbor",
           link: "https://www.boston.gov/parks/public-garden",
-          imageUrl: "https://lh5.googleusercontent.com/p/AF1QipOcKKh_WaUAOl121iZvtL93-EyoEu3hEV3usZnR=w241-h160-k-no",
+          imageUrl: "https://cdn10.bostonmagazine.com/wp-content/uploads/2015/04/boston-public-garden.jpg",
           date: "",
           status: ""
       },
