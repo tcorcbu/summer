@@ -43,8 +43,26 @@ angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($sc
           id: 4,
           title: "Walk Through Boston Public Garden",
           description: "Take a ferry over and explore one of the islands in Boston Harbor",
-          link: "",
-          imageUrl: "",
+          link: "https://www.boston.gov/parks/public-garden",
+          imageUrl: "https://lh5.googleusercontent.com/p/AF1QipOcKKh_WaUAOl121iZvtL93-EyoEu3hEV3usZnR=w241-h160-k-no",
+          date: "",
+          status: ""
+      },
+      {
+          id: 5,
+          title: "SoWa Public Market",
+          description: "Visit shops and events at SoWa",
+          link: "http://www.sowaboston.com/",
+          imageUrl: "https://static1.squarespace.com/static/569033a240667a56fc7f0f89/57dcbae92994ca976a6ac236/58750816d482e98528715aa3/1484064867229/Food+Trucks+%281%29.jpg?format=500w",
+          date: "",
+          status: ""
+      },
+      {
+          id: 6,
+          title: "BU Star Observatory",
+          description: "Visit shops and events at SoWa",
+          link: "https://www.bu.edu/astronomy/events/public-open-night-at-the-observatory/",
+          imageUrl: "http://www.bu.edu/today/files/2016/03/h_butoday_16-9777-OBSERVATORY-060.jpg",
           date: "",
           status: ""
       }
