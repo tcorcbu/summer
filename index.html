@@ -15,7 +15,7 @@
         <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
           <div uib-slide ng-repeat="slide in dateIdeas track by slide.id" index="slide.id">
             <img ng-src="{{slide.imageUrl}}" style="margin:auto;width: 70%">
-            <div class="carousel-caption">
+            <div class="carousel-caption" style="background-color: rgba(211,211,211,0.4)">
               <h4>{{slide.title}}</h4>
               <p>{{slide.description}}</p>
             </div>
