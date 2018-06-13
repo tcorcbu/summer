@@ -60,9 +60,18 @@ angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($sc
       {
           id: 6,
           title: "BU Star Observatory",
-          description: "Visit shops and events at SoWa",
+          description: "Gaze at the stars ontop of CAS",
           link: "https://www.bu.edu/astronomy/events/public-open-night-at-the-observatory/",
           imageUrl: "http://www.bu.edu/today/files/2016/03/h_butoday_16-9777-OBSERVATORY-060.jpg",
+          date: "",
+          status: ""
+      },
+      {
+          id: 7,
+          title: "Lawn on D",
+          description: "Play games on Lawn on D",
+          link: "https://www.signatureboston.com/lawn-on-d",
+          imageUrl: "https://cdn10.bostonmagazine.com/wp-content/uploads/2016/07/lawn-on-d.jpg",
           date: "",
           status: ""
       }
