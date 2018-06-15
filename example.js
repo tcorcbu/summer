@@ -101,6 +101,24 @@ angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($sc
           imageUrl: "https://static1.squarespace.com/static/574cf47160b5e9b0a7844bd7/574fa4503c44d86f06c38277/574fa56eab48decaf96f133a/1464837516729/B%26G+Oyster+Plate+-+5X8.jpg?format=2500w",
           date: "",
           status: ""
+      },
+      {
+          id: 11,
+          title: "Baking Class",
+          description: "Do a baking class at Flour Bakery",
+          link: "https://flourbakery.com/classes/",
+          imageUrl: "https://www.wonderwomenboston.com/resources/Pictures/definitely-flour-1.jpg",
+          date: "",
+          status: ""
+      },
+      {
+          id: 12,
+          title: "Paint Bar on Newbury St",
+          description: "Take a painting class at Paint Bar",
+          link: "https://www.thepaintbar.com/",
+          imageUrl: "https://www.thepaintbar.com/Media/Default/Images/CallOuts/homepage_joinus_corporate.jpg",
+          date: "",
+          status: ""
       }
     ];
   
