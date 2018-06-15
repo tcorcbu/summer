@@ -74,6 +74,33 @@ angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($sc
           imageUrl: "https://cdn10.bostonmagazine.com/wp-content/uploads/2016/07/lawn-on-d.jpg",
           date: "",
           status: ""
+      },
+      {
+          id: 8,
+          title: "Cooking Classes",
+          description: "Do a cooking class at at Boston Public Market",
+          link: "https://bostonpublicmarket.org/kitchen",
+          imageUrl: "https://bostonpublicmarket.org/fb_default.jpg",
+          date: "",
+          status: ""
+      },
+      {
+          id: 9,
+          title: "Drink Good Hot Chocolate",
+          description: "Get tasty hot chocolate at L.A. Burdick",
+          link: "https://www.burdickchocolate.com/",
+          imageUrl: "https://www.burdickchocolate.com/Images/Categories/CHODR.jpg",
+          date: "",
+          status: ""
+      },
+      {
+          id: 10,
+          title: "Oyster Shucking Class",
+          description: "Learn how to shuck oysters at B&G Oysters",
+          link: "http://bandgoysters.com/oyster-shucking-classes/",
+          imageUrl: "https://static1.squarespace.com/static/574cf47160b5e9b0a7844bd7/574fa4503c44d86f06c38277/574fa56eab48decaf96f133a/1464837516729/B%26G+Oyster+Plate+-+5X8.jpg?format=2500w",
+          date: "",
+          status: ""
       }
     ];
   
