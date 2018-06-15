@@ -80,7 +80,7 @@ angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($sc
           title: "Cooking Classes",
           description: "Do a cooking class at at Boston Public Market",
           link: "https://bostonpublicmarket.org/kitchen",
-          imageUrl: "https://bostonpublicmarket.org/fb_default.jpg",
+          imageUrl: "https://bostonpublicmarket.org/WP/wp-content/uploads/hub-photo2.jpg",
           date: "",
           status: ""
       },
@@ -89,7 +89,7 @@ angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($sc
           title: "Drink Good Hot Chocolate",
           description: "Get tasty hot chocolate at L.A. Burdick",
           link: "https://www.burdickchocolate.com/",
-          imageUrl: "https://www.burdickchocolate.com/Images/Categories/CHODR.jpg",
+          imageUrl: "https://assets.bonappetit.com/photos/57accdd1f1c801a1038bc794/16:9/w_1200,c_limit/Hot-Chocolate-2-of-5.jpg",
           date: "",
           status: ""
       },
